@@ -10,10 +10,18 @@ eureka:
       defaultZone: http://eureka.192.168.11.11.xip.io/eureka/
 
 spring:
-  profiles: lattice
   application:
     index: ${instance.index}
 
 server:
   port: 8080
 
+---
+
+spring:
+  profiles: aws
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.52.0.56.243.xip.io/eureka/
