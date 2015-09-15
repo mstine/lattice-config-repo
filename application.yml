@@ -24,4 +24,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka.52.0.56.243.xip.io/eureka/
+      defaultZone: http://eureka.104.154.81.247.xip.io/eureka/
